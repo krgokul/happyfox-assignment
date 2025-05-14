@@ -1,0 +1,19 @@
+[
+  {
+    "description": "Rule 1",
+    "rules": [
+      {
+        "field": "From",
+        "predicate": "contains",
+        "value": "tenmiles.com"
+      },
+      {
+        "field": "Subject",
+        "predicate": "is less than",
+        "value": 2
+      }
+    ],
+    "actions": [],
+    "all": true
+  }
+]
